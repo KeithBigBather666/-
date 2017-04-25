@@ -16,7 +16,7 @@
     self.view.backgroundColor=[UIColor colorWithRed:21/255.0 green:21/255.0 blue:36/255.0 alpha:1];
     
     //创建支付宝控件
-    UIButton *zfbBtn=[UIButton buttonWithType:UIButtonTypeSystem];
+    UIButton *zfbBtn=[UIButton buttonWithType:UIButtonTypeCustom];
     
     //添加图片
     [zfbBtn setImage:[UIImage imageNamed:@"alipay_msp_op_success"] forState:UIControlStateNormal];
